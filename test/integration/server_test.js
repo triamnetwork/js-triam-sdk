@@ -5,7 +5,7 @@ describe("integration tests", function () {
   this.timeout(TIMEOUT);
   this.slow(TIMEOUT/2);
 
-  const HORIZON = 'https://horizon-testnet.stellar.org';
+  const HORIZON = 'https://testnet-horizon.arm-system-holdings.com/';
   TriamSdk.Network.useTestNetwork();
   let server = new TriamSdk.Server(HORIZON);
   let master = TriamSdk.Keypair.random();

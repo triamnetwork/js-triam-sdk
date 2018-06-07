@@ -83,10 +83,10 @@
     "event-source-polyfill": "0.0.7",
     "eventsource": "^0.2.1",
     "lodash": "^4.0.1",
-    "stellar-base": "^0.7.6",
+    "triam-base": "^0.0.1",
     "toml": "^2.3.0"
   },
   "script": {
-  	"generate-docs": "node_modules/.bin/jsdoc --configure .jsdoc.json --verbose"
+    "generate-docs": "node_modules/.bin/jsdoc --configure .jsdoc.json --verbose"
   }
 }
